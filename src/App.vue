@@ -23,6 +23,7 @@ header {
 		nav {
 			display: flex;
 			justify-content: space-around;
+			height: 80px;
 		}
 	}
 }
