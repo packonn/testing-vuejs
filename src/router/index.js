@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import About from "../views/About.vue";
+import Pagination from "../views/Pagination.vue";
 import Home from "../views/Home.vue";
 import Todo from "@/views/Todo.vue";
 
@@ -15,9 +15,9 @@ const router = createRouter({
 			component: Home,
 		},
 		{
-			path: "/about",
-			name: "about",
-			component: About,
+			path: "/pagination",
+			name: "pagination",
+			component: Pagination,
 		},
 		{
 			path: "/todo",
